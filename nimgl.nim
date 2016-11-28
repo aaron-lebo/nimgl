@@ -49,7 +49,7 @@ proc genBuffer(data: var Buffer): GLuint =
 proc main() =
     init()
 
-    var win = newGlWin(title="xero", dim=(w: 800, h:600))
+    var win = newGlWin(title="test", dim=(w: 800, h:600))
     win.cursorMode = CursorMode.cmDisabled
     makeContextCurrent(win)
     swapInterval(1)
